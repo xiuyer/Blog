@@ -1,0 +1,8 @@
+/build/
+/config/
+/dist/
+/*.js
+/test/unit/coverage/
+/server
+/static/ueditor
+/src/components/admin/articleEdit.vue

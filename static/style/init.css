@@ -1,0 +1,71 @@
+@charset "utf-8";
+body, ul, li, input, h1, h2, h3, h4, p, img, a {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  color: #222;
+  font-family: 'microsoft yahei';
+  background-image: url(../images/body.png)
+}
+
+ul {
+  list-style: none
+}
+
+a {
+  text-decoration: none
+}
+
+input {
+  outline: none
+}
+
+#myCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both
+}
+
+.container {
+  margin: auto;
+  width: 12rem;
+  clear: both
+}
+.mt110{
+  margin-top: 1.1rem;
+}
+.mt20{
+  margin-top: .2rem;
+}
+.mb20{
+  margin-bottom: .2rem;
+}
+.initDiv{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: .18rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 544456 */
+  src: url('https://at.alicdn.com/t/font_544456_kfvc2b46y3.eot');
+  src: url('https://at.alicdn.com/t/font_544456_kfvc2b46y3.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_544456_kfvc2b46y3.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_544456_kfvc2b46y3.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_544456_kfvc2b46y3.svg#iconfont') format('svg');
+}
+

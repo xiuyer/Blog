@@ -1,0 +1,13 @@
+.fade-transition {
+  transition: 1s all ease;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(-200px);
+}
+
+.fade-leave {
+  opacity: 0;
+  transform: translateY(200px);
+}

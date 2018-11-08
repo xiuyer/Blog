@@ -1,0 +1,89 @@
+@charset "UTF-8";
+.content .main article {
+  height: 2rem
+}
+
+.content .main article h1 span {
+  position: relative;
+  display: inline-block;
+  margin-right: .2rem;
+  padding: .05rem;
+  height: .1rem;
+  line-height: .1rem;
+  background-color: #ff337d;
+  color: #fff;
+  font-size: .14rem;
+  font-weight: lighter;
+  text-align: center
+}
+
+.content .main article h1 span:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -0.2rem;
+  border: .1rem solid transparent;
+  border-left-color: #ff337d
+}
+
+.content .main article h1 a {
+  color: #61b3e6;
+  transition: padding .2s
+}
+
+.content .main article h1 a:hover {
+  color: #1e81bb;
+  padding-left: .1rem
+}
+
+.content .main article section {
+  width: 100%
+}
+
+.content .main article section img {
+  display: block;
+  float: left;
+  margin-top: .1rem;
+  width: 2rem;
+  height: 1.4rem
+}
+
+.content .main article section .info {
+  float: right;
+  width: 5.7rem;
+  padding-top: .05rem;
+  font-size: .12rem;
+  line-height: .25rem
+}
+
+.content .main article section .info p {
+  height: 1.2rem;
+  overflow: hidden;
+  font-size: .14rem
+}
+
+.content .main article section .info ul {
+  display: flex;
+  justify-content: flex-end
+}
+
+.content .main article section .info ul li {
+  margin-left: .1rem
+}
+
+.content .main article section .info ul li:nth-child(4) span {
+  color: #61b3e6
+}
+
+.content .main article section .info ul li i {
+  margin: 0 .03rem
+}
+
+.content .main article section .info ul li:nth-child(5) {
+  color: #ff337d;
+}
+
+.content .main article section .info ul li:nth-child(2) i {
+  font-size: .16rem
+}

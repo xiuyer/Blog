@@ -1,0 +1,268 @@
+.main .title{
+    font-size: .18rem;
+    font-weight: 400;
+    color:#61b3e6;
+    height: .4rem;
+    line-height: .4rem;
+    border-bottom:2px solid #ff337d;
+}
+.main .content-txt{
+    padding: .1rem;
+    font-size: .16rem;
+}
+.main .foot{
+    font-size: .14rem;
+}
+.main .foot .favorite{
+    text-align: center;
+}
+.main .foot .favorite i{
+    display: block;
+    margin: auto;
+    width: 1rem;
+    height: 1rem;
+    background: url('../images/favorite.png') no-repeat;
+}
+.main .foot .favorite .on{
+    animation: favorite 1.5s forwards steps(28);
+}
+@keyframes favorite {
+    0%{background-position:left;}
+    100%{background-position:right;}
+}
+.main .foot .info{
+    padding-bottom: .1rem;
+    font-size: .14rem;
+    text-align: right;
+    border-bottom:1px solid #ddd ;
+}
+.main .foot .info i{
+  color:#ff337d;
+  cursor: pointer;
+}
+.main .foot .enter{
+    padding: .1rem;
+}
+.main .foot .enter h2{
+    font-size: .18rem;
+    height: .4rem;
+    line-height: .4rem;
+}
+.main .foot .enter textarea{
+    width:7.7rem;
+    height: 1rem;
+    resize:none;
+}
+.main .foot .enter input{
+    float: right;
+    width:.7rem;
+    text-align: center;
+}
+.main .comment{
+    margin-top: .15rem;
+    font-size: .14rem;
+}
+.main .comment >ul>li{
+    margin-bottom: .1rem;
+    padding: .1rem;
+    border: 1px solid #ddd;
+}
+.main .comment .comment-item .userlogo{
+    float: left;
+    width: 1rem;
+    text-align: center;
+}
+.main .comment .comment-item .userlogo img{
+    width: .6rem;
+    height: .6rem;
+    border-radius:50%;
+    border: 1px solid #ddd;
+}
+.main .comment .comment-item .userlogo .username {
+    color:#61b3e6;
+}
+.main .comment .comment-item .comment-txt{
+    position: relative;
+    float: right;
+    width: 6.5rem;
+    min-height: 1rem;
+    font-size:.14rem;
+    line-height: .25rem;
+}
+.main .comment .comment-item .comment-txt .time{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: .12rem;
+    text-align: right;
+}
+.main .comment .comment-item .comment-txt .time span{
+    color:#61b3e6;
+    cursor: pointer;
+}
+.main .comment .comment-item .comment-txt .time span:hover{
+    border-bottom:#61b3e6 1px solid;
+}
+.main .comment .com-list{
+    clear: both;
+    float: right;
+    width: 5rem;
+}
+.main .comment .com-list li{
+    padding: .1rem;
+    border-top:1px solid #ddd ;
+}
+.main .comment .com-list li .uname{
+    color:#61b3e6;
+}
+.main .comment .com-list li span{
+  margin: .08rem;
+  color:#222;
+}
+.main .comment .com-list li .ctxt {
+    text-indent: .15rem;
+}
+.main .comment .com-list li .ctxt input{
+  display: block;
+  float: right;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.main .comment .com-list li textarea {
+  width: 4.7rem;
+  height: .5rem;
+  resize: none;
+}
+.content .artshow{
+  width: 8rem !important;
+  padding: .15rem;
+  box-shadow: 0 0 .02rem #ccc;
+}
+.content .artshow img{
+  max-width: 7.6rem !important;
+}
+.content .main .work-wrapper article{
+  float: left;
+  margin: .15rem .5rem 0 0;
+  padding: 0;
+  color:#222;
+  width: 2rem;
+  height: auto;
+  background-color: #fff;
+  border: 4px double #61b3e6;
+  box-shadow: 0 0 .04rem #ccc;
+  perspective: 8rem;
+}
+.content .main .work-wrapper article *{
+  transform-style: preserve-3d;
+}
+.content .main .work-wrapper article .label{
+  margin: auto;
+  max-width: 1rem;
+  line-height: .25rem;
+  height: .25rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: .14rem;
+  color:#fff;
+  background-color: #ff337d;
+}
+.content .main .work-wrapper article a{
+  display: block !important;
+  margin: auto;
+  display: block;
+  text-align: center;
+  line-height: .25rem;
+  font-size: .14rem;
+  color:#222;
+}
+.content .main .work-wrapper article a:hover{
+  color:#61b3e6;
+}
+.content .main .work-wrapper article .imgA {
+  position: relative;
+  margin: .15rem auto 0;
+  width: 1.6rem;
+  height: 1.6rem;
+  z-index: 2;
+  transform: translateZ(0) rotateX(0deg) rotateY(0deg);
+  transition: transform 1s;
+  transform-origin: center center -0.8rem;
+}
+.content .main .work-wrapper article .turnLeft {
+  transform: translateZ(0) rotateX(0deg) rotateY(-90deg);
+}
+.content .main .work-wrapper article .turnRight {
+  transform: translateZ(0) rotateX(0deg) rotateY(90deg);
+}
+.content .main .work-wrapper article .turnTop {
+  transform: translateZ(0) rotateX(90deg) rotateY(0deg);
+}
+.content .main .work-wrapper article .turnDown {
+  transform: translateZ(0) rotateX(-90deg) rotateY(0deg);
+}
+.content .main .work-wrapper article .imgA img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.content .main .work-wrapper article .imgA img:nth-child(1){
+}
+.content .main .work-wrapper article .imgA img:nth-child(2){
+  transform-origin: right;
+  transform: translateX(-1.6rem) rotateY(-90deg);
+}
+.content .main .work-wrapper article .imgA img:nth-child(3){
+  transform-origin: left;
+  transform: translateX(1.6rem) rotateY(90deg);
+}
+.content .main .work-wrapper article .imgA img:nth-child(4){
+  transform-origin: bottom;
+  transform: translateY(-1.6rem) rotateX(90deg);
+}
+.content .main .work-wrapper article .imgA img:nth-child(5){
+  transform-origin: top;
+  transform: translateY(1.6rem) rotateX(-90deg);
+}
+.content .main .work-wrapper article .title{
+  width: 2rem;
+  font-size: .16rem;
+  line-height: .4rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.content .main .guestbook h2{
+  margin-bottom: .15rem;
+  font-size: .18rem;
+  color:#61b3e6;
+  border-bottom:2px solid #61b3e6 ;
+}
+.content .main .guestbook textarea {
+  display: block;
+  padding: .05rem;
+  margin: auto;
+  width: 8rem;
+  height: 1.3rem;
+  resize: none;
+  border: 1px solid #61b3e6;
+  border-radius:.1rem ;
+  outline: none;
+}
+.content .main .guestbook input {
+  display: block;
+  margin: .1rem;
+  float: right;
+  width: .6rem;
+  height: .3rem;
+  line-height: .3rem;
+  background-color: #61b3e6;
+  color:#fff;
+  text-align: center;
+  border: none;
+  border-radius:.05rem;
+  cursor: pointer;
+}

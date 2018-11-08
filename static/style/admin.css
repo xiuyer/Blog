@@ -1,0 +1,139 @@
+body .header {
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  font-size: 14px;
+  text-align: right;
+  background-color: #010101;
+}
+body .header span {
+  margin-right: 10px;
+  color: #fff;
+}
+body .header span:hover {
+  text-underline: #fff;
+}
+body .header a {
+  color: #fff;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.content-wrapper aside {
+  float: left;
+  width: 100px;
+  min-height: 500px;
+  background-color: #eee;
+}
+.content-wrapper aside ul li {
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+.content-wrapper .content {
+  margin: 20px 20px;
+  padding: 15px;
+  flex-grow: 1;
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 10px ;
+  background-color: #fff;
+}
+.content > header p {
+  height: 40px;
+  text-align: center;
+  font-size: 0;
+}
+.content > header p input {
+  box-sizing: content-box;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  border: 1px solid #61b3e6;
+  outline: none;
+}
+.content > header p input[type=text] {
+  padding-left: 10px;
+  width: 400px;
+}
+.content > header p input[type=button] {
+  width: 70px;
+  text-align: center;
+  background-color: #61b3e6;
+}
+.content > section {
+  padding: 10px 20px;
+  width: inherit;
+}
+.content .line {
+  border-bottom: 1px solid #ddd;
+}
+.content > section .left {
+  float: left;
+}
+.content > section .left input {
+  width: 150px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  border: none;
+}
+.content > section .left input:nth-child(1) {
+  background-color: #ff337d;
+}
+.content > section .left input:nth-child(2) {
+  margin-left: 20px;
+  background-color: green;
+}
+.content > section .right {
+  float: right;
+  line-height: 30px;
+  font-size: 14px;
+}
+.content > section .right span {
+  margin: 5px;
+  color: #f60;
+}
+.content table {
+  width: 100%;
+  font-size: 14px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+}
+.content > section .article-list th {
+  background-color: #F5FAFE;
+}
+.content > section .article-list th,
+.content > section .article-list td {
+  height: 40px;
+  line-height: 40px;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+.content > section .article-list td input[type=button] {
+  margin-left: 10px;
+}
+.content > section .article-edit tr {
+  line-height: 30px;
+}
+.content > section .article-edit tr td:nth-child(1) {
+  width: 15%;
+  text-align: center;
+  font-weight: 600;
+  background-color: #F5FAFE;
+  border-bottom: 1px solid #ddd;
+}
+.content > section .article-edit tr td:nth-child(2) {
+  width: 85%;
+  padding-left: 15px;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.borderB {
+  border-bottom:1px solid #ddd ;
+}
+/*# sourceMappingURL=admin.css.map */
